@@ -167,7 +167,7 @@ export class Repro extends IonicNativePlugin {
    * trackViewContent
    */
   @Cordova()
-  trackViewContent(properties: string): Promise<any> {
+  trackViewContent(eventName: string, properties: any): Promise<any> {
     return;
   }
 
@@ -175,7 +175,7 @@ export class Repro extends IonicNativePlugin {
    * trackSearch
    */
   @Cordova()
-  trackSearch(properties: string): Promise<any> {
+  trackSearch(properties: any): Promise<any> {
     return;
   }
 
@@ -183,7 +183,7 @@ export class Repro extends IonicNativePlugin {
    * trackAddToCart
    */
   @Cordova()
-  trackAddToCart(contentID: string, properties: string): Promise<any> {
+  trackAddToCart(contentID: string, properties: any): Promise<any> {
     return;
   }
 
