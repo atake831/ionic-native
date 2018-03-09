@@ -143,7 +143,7 @@ export class Repro extends IonicNativePlugin {
    * setDateUserProfile
    */
   @Cordova()
-  setDateUserProfile(key: string, value: string): Promise<any> {
+  setDateUserProfile(key: string, value: Date): Promise<any> {
     return;
   }
 
